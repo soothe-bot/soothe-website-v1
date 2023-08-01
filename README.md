@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/MTl1H76t.png" width=165 align="left"/>
+<img src="https://cdn.discordapp.com/attachments/1098969636306960465/1135868449676066867/soothe1bc.png" width=165 align="left"/>
 
 > konnichiwa, watashi wa soothe desu <br>
 
