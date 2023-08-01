@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Thank you for submitting the form</title>
+    <meta http-equiv="refresh" content="5;url=https://soothe.is-a.fun/">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f6f6f6;
+            color: #2d2d2d;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 800;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #2d2d2d;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #fff;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #2d2d2d;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #fff;
+            color: #2d2d2d;
+            border: 2px solid #2d2d2d;
+            cursor: pointer;
+        }
+
+        /* Tambahkan gaya untuk latar belakang dan avatar */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-image: url("/img/thanks.png"); /* Ganti dengan URL gambar latar belakang Anda */
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: -1;
+        }
+
+        .avatar {
+            width: 150px; /* Sesuaikan ukuran avatar */
+            height: 150px;
+            background-image: url("/img/soothe1.png"); /* Ganti dengan URL gambar avatar Anda */
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        @media screen and (min-width: 768px) {
+            h1 {
+                font-size: 48px;
+            }
+
+            p {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Tambahkan elemen untuk latar belakang dan avatar -->
+    <div class="background"></div>
+    <div class="container">
+        <div class="avatar"></div>
+        <h1>Thank you for inviting me!</h1>
+        <p>You will be redirected to the main web page in 5 seconds.</p>
+        <p>If you are not redirected automatically, please click <a href="https://soothe.is-a.fun/" class="btn">here</a>
+        </p>
+    </div>
+</body>
+
+</html>
